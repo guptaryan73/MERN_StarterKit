@@ -18,8 +18,8 @@ A modern, customizable starter template for building full-stack MERN (MongoDB, E
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/guptaryan73/fullstack_starterkit
-   cd fullstack_starterkit
+   git clone https://github.com/guptaryan73/MERN_StarterKit.git
+   cd MERN_StarterKit
    ```
 
 2. Install dependencies for frontend and backend separately:
