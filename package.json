@@ -1,0 +1,11 @@
+{
+    "name": "my-mern-app",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+    },
+    "private": true,
+    "dependencies": {
+        "concurrently": "^9.0.1"
+    }
+}
