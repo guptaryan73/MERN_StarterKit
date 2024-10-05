@@ -20,9 +20,7 @@ const Status = () => {
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-6">
             <h1 className="text-4xl font-extrabold mb-4 hover:text-blue-400 transition duration-300">
-                <a href="https://www.linkedin.com/in/aryangupta0/" target="_blank" rel="noopener noreferrer" className="underline decoration-blue-400">
-                    Welcome
-                </a>
+                
             </h1>
             <h2 className="text-2xl font-semibold mb-4">Status Information:</h2>
             <ul className="bg-gray-800 rounded-lg shadow-lg p-6 space-y-4 w-full max-w-md">
@@ -40,6 +38,9 @@ const Status = () => {
                     <a href={status.frontendURL} className="text-blue-400 hover:underline">{status.frontendURL}</a>
                 </li>
             </ul>
+            <footer className="mt-6 text-lg text-gray-400">
+                Made by <a href="https://www.linkedin.com/in/aryangupta0/" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">Aryan Gupta</a>
+            </footer>
         </div>
     );
 };
