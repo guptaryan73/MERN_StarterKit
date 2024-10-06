@@ -14,12 +14,12 @@ A modern, customizable starter template for building full-stack MERN (MongoDB, E
 - npm (usually comes with Node.js)
 - MongoDB (local instance or cloud service)
 
-## NOTE
+## Note
 If you're encountering issues with Git, you can remove the repository by running:
 ```bash
-   rm -rf .git
-   ```
-   This will permanently delete all Git history and configuration for the current project. Ensure you have a backup if needed, as this action cannot be undone.
+rm -rf .git
+```
+This will permanently delete all Git history and configuration for the current project. Ensure you have a backup if needed, as this action cannot be undone.
 
 ## Quick Start
 
